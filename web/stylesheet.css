@@ -7,13 +7,14 @@ body{
 
 p {
     margin: auto;
-    width: 60%;
+    width: 100%;
 }
 
 a {
     color: gray;
     margin: auto;
     width: 50%;
+    text-align: center;
 }
 
 h1 {
@@ -26,6 +27,14 @@ h1 {
 div.intro {
     background-color: white;
     width: 60%;
+    margin: auto;
+    color: black;
+}
+
+div.languages {
+    background-color: white;
+    width: 60%;
+    margin: auto;
     color: black;
 }
 
