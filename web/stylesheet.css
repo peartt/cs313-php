@@ -4,11 +4,21 @@ body{
 
 p {
     color: gray;
+    margin: auto;
+    width: 80%;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.2em;
 }
 
 h1 {
     margin:auto;
+    width: 50%;
     color:mediumslateblue;
+}
+
+div.time {
+    color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
