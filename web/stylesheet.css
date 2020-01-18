@@ -24,6 +24,12 @@ h1 {
     color: mediumslateblue;
 }
 
+div.center {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
 div.intro {
     background-color: white;
     width: 60%;
