@@ -1,7 +1,14 @@
-.body{
+body{
     background-color: aqua;
 }
 
 p {
-    color: red;
+    color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin:auto;
+    color:mediumslateblue;
 }
