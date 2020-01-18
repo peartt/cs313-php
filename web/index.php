@@ -15,8 +15,9 @@
  problem is what I love to do. The possiblities of programming are so vast and exciting that I know that this field is the one for me.</p>
 
 <!-- use php to display time at the bottom right of the page -->
+<!-- TODO make it update each minute -->
 <?php
-echo "<div class='time'> The time is " . date("d/m/Y") . "</div>"; 
+echo "<div class='time'> This webpage finished loading at " . date("h:i:sa") . "</div>"; 
 ?>
 </body>
 </html>
