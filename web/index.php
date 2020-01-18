@@ -11,7 +11,7 @@
 <body>
 <h1>Welcome to my homepage!</h1>
 <!-- Should I have a click for assignments link here? -->
-<a href="hello.html">Click here for assignments</a>
+<a href="assignments.php">Click here for assignments</a>
 
 <!-- Info paragraph "About me" -->
 <div class="intro"> <p>Hello and welcome to my homepage! My name is Tyler Peart and I am a Computer Science Major. Currently this is my 6th Semester here at Brigham Young University-Idaho and I'm loving

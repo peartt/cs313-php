@@ -1,27 +1,31 @@
 body{
     background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    color: gray;
 }
 
 p {
-    color: gray;
     margin: auto;
-    width: 80%;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.2em;
+    width: 60%;
 }
 
 a {
     color: gray;
+    margin: auto;
+    width: 50%;
 }
 
 h1 {
-    margin:auto;
+    margin: auto;
     width: 50%;
-    color:mediumslateblue;
+    text-align: center;
+    color: mediumslateblue;
 }
 
 div.intro {
     background-color: white;
+    width: 60%;
     color: black;
 }
 
