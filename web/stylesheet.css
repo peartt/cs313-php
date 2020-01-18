@@ -15,7 +15,6 @@ a {
     margin: auto;
     width: 50%;
     text-align: center;
-    border: 1px black;
 }
 
 h1 {
@@ -29,6 +28,13 @@ div.center {
     text-align: center;
     width: 50%;
     margin: auto;
+}
+
+div.assignmentLink {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: 1px, solid, black;
 }
 
 div.intro {

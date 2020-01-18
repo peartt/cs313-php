@@ -6,13 +6,43 @@
 <title>Tyler Peart Homepage</title>
 <link rel="stylesheet" href="stylesheet.css">
 <?php include 'functions.php'; ?>
+<script>
+function rainbowColors() {
+    var cycle = document.getElementById("titleHeader").value;
+    switch (cycle)
+    {
+        case 1:
+            document.getElementById("titleHeader").style.color = "orange"
+            break;
+        case 2:
+            document.getElementById("titleHeader").style.color = "yellow"
+            break;
+        case 3:
+            document.getElementById("titleHeader").style.color = "green"
+            break;
+        case 4:
+            document.getElementById("titleHeader").style.color = "blue"
+            break;
+        case 5:
+            document.getElementById("titleHeader").style.color = "indigo"
+            break;
+        case 6:
+            document.getElementById("titleHeader").style.color = "mediumslateblue"
+            break;
+        case 7:
+            document.getElementById("titleHeader").style.color = "red"
+            break;
+    }
+    document.getElementById("titleHeader").value = (cycle + 1) % 7;
+}
+</script>
 </head>
 
 <body>
-<h1>Welcome to my homepage!</h1>
+<h1 id="titleHeader" value=7 onclick="rainbowColors()">Welcome to my homepage!</h1>
 <br> <!-- for style -->
 <!-- Should I have a click for assignments link here? -->
-<div class="center"> <a href="assignments.php">Click here for assignments</a> </div>
+<div class="assignmentLink"> <a href="assignments.php">Click here for assignments</a> </div>
 <br>
 
 <!-- Info paragraph "About me" -->
