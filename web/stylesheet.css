@@ -10,10 +10,19 @@ p {
     font-size: 1.2em;
 }
 
+a {
+    color: gray;
+}
+
 h1 {
     margin:auto;
     width: 50%;
     color:mediumslateblue;
+}
+
+div.intro {
+    background-color: white;
+    color: black;
 }
 
 div.time {
