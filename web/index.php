@@ -10,8 +10,10 @@
 
 <body>
 <h1>Welcome to my homepage!</h1>
+<br> <!-- for style -->
 <!-- Should I have a click for assignments link here? -->
 <div class="center"> <a href="assignments.php">Click here for assignments</a> </div>
+<br>
 
 <!-- Info paragraph "About me" -->
 <div class="intro"> <p>Hello and welcome to my homepage! My name is Tyler Peart and I am a Computer Science Major. Currently this is my 6th Semester here at Brigham Young University-Idaho and I'm loving
@@ -24,7 +26,7 @@
     varying degrees of experience in HTML, JavaScript, LaTex, PHP, Java, C, and Rust.
 </p> </div>
 <br> <!-- for style -->
-<img src="images/STC.jpg" alt="Science and Technology Center at Brigham Young University Idaho" title="Science and Technology Center at Brigham Young University Idaho">
+<div class="center"> <img src="images/STC.jpg"  width="400" height="240" alt="Science and Technology Center at Brigham Young University Idaho" title="Science and Technology Center at Brigham Young University Idaho"> </div>
 
 <!-- use php to display time at the bottom right of the page -->
 <!-- TODO make it update each minute -->
