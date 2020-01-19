@@ -39,7 +39,7 @@ function rainbowColors() {
     document.getElementById("funButton").value = (cycle % 7) + 1;
 }
 </script>
-<button type="button" value="7" id="funButton">Click me!</button>
+<button type="button" value="7" id="funButton" onclick="rainbowColors()">Click me!</button>
 <h1 id="titleHeader">Welcome to my homepage!</h1>
 <br> <!-- for style -->
 <!-- Should I have a click for assignments link here? -->
