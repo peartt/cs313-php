@@ -6,6 +6,9 @@
 <title>Tyler Peart Homepage</title>
 <link rel="stylesheet" href="stylesheet.css">
 <?php include 'functions.php'; ?>
+</head>
+
+<body>
 <script>
 function rainbowColors() {
     var cycle = document.getElementById("funButton").value;
@@ -36,9 +39,6 @@ function rainbowColors() {
     document.getElementById("funButton").value = (cycle % 7) + 1;
 }
 </script>
-</head>
-
-<body>
 <button type="button" value="7" id="funButton">Click me!</button>
 <h1 id="titleHeader">Welcome to my homepage!</h1>
 <br> <!-- for style -->
