@@ -8,38 +8,39 @@
 <?php include 'functions.php'; ?>
 <script>
 function rainbowColors() {
-    var cycle = document.getElementById("titleHeader").value;
+    var cycle = document.getElementById("funButton").value;
     switch (cycle)
     {
-        case 1:
+        case "1":
             document.getElementById("titleHeader").style.color = "orange"
             break;
-        case 2:
+        case "2":
             document.getElementById("titleHeader").style.color = "yellow"
             break;
-        case 3:
+        case "3":
             document.getElementById("titleHeader").style.color = "green"
             break;
-        case 4:
+        case "4":
             document.getElementById("titleHeader").style.color = "blue"
             break;
-        case 5:
+        case "5":
             document.getElementById("titleHeader").style.color = "indigo"
             break;
-        case 6:
+        case "6":
             document.getElementById("titleHeader").style.color = "mediumslateblue"
             break;
-        case 7:
+        case "7":
             document.getElementById("titleHeader").style.color = "red"
             break;
     }
-    document.getElementById("titleHeader").value = (cycle + 1) % 7;
+    document.getElementById("funButton").value = (cycle % 7) + 1;
 }
 </script>
 </head>
 
 <body>
-<h1 id="titleHeader" value=7 onclick="rainbowColors()">Welcome to my homepage!</h1>
+<button type="button" value="7" id="funButton">Click me!</button>
+<h1 id="titleHeader">Welcome to my homepage!</h1>
 <br> <!-- for style -->
 <!-- Should I have a click for assignments link here? -->
 <div class="assignmentLink"> <a href="assignments.php">Click here for assignments</a> </div>
