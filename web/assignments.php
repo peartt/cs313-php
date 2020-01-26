@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<p>Coming soon to a website near you!</p>
+<a href="./week3/ShoppingCart/shoppingCart.php">Week 3: Shoppping Cart</a>
 <?php displayTime(); ?>
 </body>
 </html>
