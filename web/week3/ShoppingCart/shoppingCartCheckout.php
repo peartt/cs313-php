@@ -11,6 +11,8 @@
 <body>
     <h1 class = "center">Checkout</h1>
     <?php displayCart() ?>
+    <p>Your total comes out to be <?php displayTotal() ?> </p>
+
     <a href="./shoppingCartConfirmation.php" class="center">Proceed to Payment</a><br>
     <a href="./shoppingCart.php" class="center">Back to browsing</a><br>
 </body>

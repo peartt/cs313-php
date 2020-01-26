@@ -18,6 +18,15 @@ function displayCart() {
     echo "Item 4 - [" . $_SESSION['item4Count'] . "]<br>";
 }
 
+function displayTotal() {
+    $total = 0.0;
+    $total += 9.99 * $_SESSION['item1Count'];
+    $total += 5.99 * $_SESSION['item2Count'];
+    $total += 12.95 * $_SESSION['item3Count'];
+    $total += 99.99 * $_SESSION['item4Count'];
+    echo "$" . $total;
+}
+
 #This will save the address form from post into session
 if (isset($_POST['Fname'])) {
     $_SESSION['Fname'] = $_POST['Fname'];
@@ -29,11 +38,13 @@ if (isset($_POST['Fname'])) {
 }
 
 function displayReceipt() {
-    echo "Your order:<br>";
+    echo "Your order:<br><br>";
     if ($_SESSION['item1Count'] > 0) { echo $_SESSION['item1Count'] . " Item 1's<br>"; }
     if ($_SESSION['item2Count'] > 0) { echo $_SESSION['item2Count'] . " Item 2's<br>"; }
     if ($_SESSION['item3Count'] > 0) { echo $_SESSION['item3Count'] . " Item 3's<br>"; }
     if ($_SESSION['item4Count'] > 0) { echo $_SESSION['item4Count'] . " Item 4's<br>"; }
+    echo "total = "; 
+    echo displayTotal() . "<br><br>";
     echo "Thank you " . $_SESSION['Fname'] . " " . $_SESSION['Lname'] . " for your purchase! Your order will be shipped to<br>";
     echo $_SESSION['address'] . ", " . $_SESSION['city'] . " " . $_SESSION['state'] . ", " . $_SESSION['zip'] . "<br>";
 }
